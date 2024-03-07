@@ -1,4 +1,4 @@
-# LAVIS
+# UNICORN
 
 
 ## Installation
@@ -34,5 +34,8 @@ mv video_1fps video_1fps_new
 
 
 ```
-bash run_scripts/video_blip/train/pretrain_75frames_temp_aug.sh
+bash run_scripts/unicorn/train/pretrain_75frames_temp_aug.sh
 ```
+
+## Acknowledgement
+[LAVIS](https://github.com/salesforce/LAVIS) from Salesforce: the codebase we built upon, and we selected InstructBLIP as our base model initialization.
